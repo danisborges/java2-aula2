@@ -1,0 +1,11 @@
+plugins {
+    id 'application' //plugin que quero adicionar
+}
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClass = "primeiroexemplo.App"
+}
